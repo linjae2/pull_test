@@ -1,4 +1,4 @@
-name: Test 이런 수정이름이 뭐야
+name: test name
 
 on:
   pull_request:
