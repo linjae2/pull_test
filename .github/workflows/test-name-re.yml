@@ -35,3 +35,5 @@ jobs:
         echo "=== Files in Workspace ==="
         ls -la
     - uses: ./.github/workflows/.setup-go
+      with:
+        go-version: '1.23'
