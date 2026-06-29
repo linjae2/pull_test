@@ -28,9 +28,9 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-  - name: Debug - Show Workspace Files
-    run: |
-      echo "=== Working Directory ==="
-      pwd
-      echo "=== Files in Workspace ==="
-      ls -la
+      - name: Debug - Show Workspace Files
+        run: |
+          echo "=== Working Directory ==="
+          pwd
+          echo "=== Files in Workspace ==="
+          ls -la
