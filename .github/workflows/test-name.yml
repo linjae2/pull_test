@@ -1,4 +1,4 @@
-name: test name
+name: test name 다시 수정
 
 on:
   pull_request:
