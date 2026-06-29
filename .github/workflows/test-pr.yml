@@ -34,3 +34,4 @@ jobs:
         pwd
         echo "=== Files in Workspace ==="
         ls -la
+    - uses: ./.github/workflows/.bashbrew
