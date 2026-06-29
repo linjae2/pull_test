@@ -22,9 +22,15 @@ permissions:
 jobs:
 
   naughty:
-  - name: Naughty
+    name: Naughty
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
+    - uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
+    - name: Debug - Show Workspace Files
+      run: |
+        echo "=== Working Directory ==="
+        pwd
+        echo "=== Files in Workspace ==="
+        ls -la
